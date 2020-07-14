@@ -1,0 +1,58 @@
+---
+title: "report"
+author: "Bastien Rochowski"
+date: "13/07/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+## Questions
+1. What is the size of the data set, and was any data excluded?			
+2. What data cleaning steps did you perform and why?				
+3. Are there any outliers that should be treated separately? And how did you treat them?							
+4. What questions did you ask and what interesting relationships, subsets, or clusters can you find?						
+5. How much time did you spend on this?								
+
+## Context
+PhD candidates typically get paid to study.
+
+## Content
+Self-reported PhD salaries from @phdstipends.com.
+
+* University
+* Department
+* Overall Pay
+* Living Wage Ratio
+* Academic Year
+* Program Year
+* 12 months gross pay
+* 9 months gross pay
+* 3 months gross pay
+* Fees
+* comment
+
+
